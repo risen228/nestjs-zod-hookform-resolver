@@ -1,74 +1,31 @@
 <p align="center">
-  <img src="logo.svg" width="200" align="center" alt="Typescript Library Logo" style="max-width: 100%;" />
+  <img src="logo.svg" width="200" align="center" alt="NestJS Zod HookForm Resolver Logo" style="max-width: 100%;" />
   <h1></h1>
   <p align="center">
-    ✨ Your Library Description ✨
+    ✨ A react-hook-form resolver for nestjs-zod schemas ✨
   </p>
 </p>
 <br/>
 <p align="center">
-  <a href="https://github.com/js-templates/typescript-library/actions?query=branch%3Amain">
-    <img src="https://github.com/js-templates/typescript-library/actions/workflows/test-and-build.yml/badge.svg?event=push&branch=main" alt="typescript-library CI Status" />
+  <a href="https://github.com/risenforces/nestjs-zod-hookform-resolver/actions?query=branch%3Amain">
+    <img src="https://github.com/risenforces/nestjs-zod-hookform-resolver/actions/workflows/test-and-build.yml/badge.svg?event=push&branch=main" alt="typescript-library CI Status" />
   </a>
   <a href="https://opensource.org/licenses/MIT" rel="nofollow">
-    <img src="https://img.shields.io/github/license/js-templates/typescript-library" alt="License">
+    <img src="https://img.shields.io/github/license/risenforces/nestjs-zod-hookform-resolver" alt="License">
   </a>
-  <a href="https://www.npmjs.com/package/@js-templates/typescript-library" rel="nofollow">
-    <img src="https://img.shields.io/npm/dw/@js-templates/typescript-library.svg" alt="npm">
+  <a href="https://www.npmjs.com/package/nestjs-zod-hookform-resolver" rel="nofollow">
+    <img src="https://img.shields.io/npm/dw/nestjs-zod-hookform-resolver.svg" alt="npm">
   </a>
-  <a href="https://www.npmjs.com/package/@js-templates/typescript-library" rel="nofollow">
-    <img src="https://img.shields.io/github/stars/js-templates/typescript-library" alt="stars">
+  <a href="https://www.npmjs.com/package/nestjs-zod-hookform-resolver" rel="nofollow">
+    <img src="https://img.shields.io/github/stars/risenforces/nestjs-zod-hookform-resolver" alt="stars">
   </a>
 </p>
-
-## Template Features
-
-- 🚀 Blazingly fast and easy installation
-- 💡 CI workflows configured for changelogs and release/prerelease cycles
-- 🧱 Perfect and easy-to-support tooling setup without any conflicts with CI environment
-- 📚 Well-documented conventions for project maintaining (commits, pull-requests, branches)
-
-## Using template
-
-### 1. Replace everything
-
-1. Replace all `@js-templates/typescript-library` entries with your library name
-2. Replace all `js-templates/typescript-library` entries with your repo path
-3. Replace all `Your Library Description` entries with your library description
-4. Replace all `Your Name` entries with your library name
-5. Update `logo.svg`
-6. Update logo's `alt`
-
-### 2. Add secrets
-
-- `NPM_TOKEN`
-- `FULL_ACCESS_GITHUB_TOKEN` if you plan to set up [the branch protection](#add-branch-protection)
-
-### 3. (optional) Set up branch protection
-
-1. Go to `Settings` > `Branches` > `Add rule`
-2. Specify `main` branch
-3. Enable the following options:
-   - Require a pull request before merging (without approvals)
-   - Require status checks to pass before merging (you need to run them at least once to appear):
-     - `test-and-build`
-     - `pr-labeler`
-   - Include administrators
-   - Allow force pushes
-4. Repeat, but using `release/*` instead of `main`
-5. [Create a new Personal Access Token](https://github.com/settings/tokens/new) with `repo` permissions
-6. Use it as a new Secret named `FULL_ACCESS_GITHUB_TOKEN`  
-   It's needed to bypass the branch protection on CI runs
-
-### 4. The last step
-
-Remove **Template Features** and **Using Template** sections from README
 
 ## Before you start
 
 The README on `main` branch may contain some unreleased changes.
 
-Go to [`release/latest`](https://github.com/js-templates/typescript-library/tree/release/latest) branch to see the actual README for the latest version from NPM.
+Go to [`release/latest`](https://github.com/risenforces/nestjs-zod-hookform-resolver/tree/release/latest) branch to see the actual README for the latest version from NPM.
 
 ## Navigation
 
@@ -84,13 +41,13 @@ Go to [`release/latest`](https://github.com/js-templates/typescript-library/tree
 NPM:
 
 ```sh
-npm install @js-templates/typescript-library
+npm install nestjs-zod-hookform-resolver
 ```
 
 Yarn:
 
 ```sh
-yarn add @js-templates/typescript-library
+yarn add nestjs-zod-hookform-resolver
 ```
 
 ## Contributing
